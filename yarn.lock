@@ -421,10 +421,10 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-request-restapi@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/request-restapi/-/request-restapi-1.0.0.tgz#5fdc1cde3309f29141a72a94969273aeb4222ad7"
-  integrity sha512-4DeJa99H5lX6WzBqAPMgkzuth51rKEyzpZxvA24TiTUFd3JZNwUXKWvuJsu7+xWKRL72y1i9gHTftD9HmjGyXQ==
+request-restapi@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/request-restapi/-/request-restapi-1.0.1.tgz#491d9686834f5840ab87093878b624bdae73f5eb"
+  integrity sha512-ACUkToMokcn6qYhDh9NUpTkiI2KZv+l0Sa8XFU7H3LuA4hwUlLzYeSlyykGm0xphdNUchLs03QDz6noHpxtuDg==
   dependencies:
     node-fetch "^2.6.1"
 
