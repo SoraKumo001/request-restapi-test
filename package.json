@@ -1,0 +1,21 @@
+{
+  "name": "rest-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "swagger:export": "openapi-typescript https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/ghes-3.0/ghes-3.0.yaml > src/github.d.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^14.14.35",
+    "dotenv": "^8.2.0",
+    "request-restapi": "^1.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "openapi-typescript": "^3.1.2"
+  }
+}
